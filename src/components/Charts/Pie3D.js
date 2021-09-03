@@ -1,5 +1,3 @@
-// STEP 1 - Include Dependencies
-// Include react
 import React from "react";
 import ReactDOM from "react-dom";
 
