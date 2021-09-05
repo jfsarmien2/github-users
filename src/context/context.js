@@ -78,7 +78,8 @@ const GithubProvider = ({children}) => {
                 followers,
                 requests,
                 error,
-                searchGithubUser
+                searchGithubUser,
+                isLoading
             }}
         >
             {children}
