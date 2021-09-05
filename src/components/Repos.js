@@ -19,8 +19,6 @@ const Repos = () => {
     return total
     }, {})
 
-  console.log(languages)
-
   const mostUsed = Object.values(languages).sort((a, b) => {
       return b.value - a.value
     }).slice(0, 5)
